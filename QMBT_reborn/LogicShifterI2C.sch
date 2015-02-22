@@ -1,0 +1,196 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Custom_components
+LIBS:QMBTv1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BSS138 Q1
+U 1 1 54A88C18
+P 5650 2700
+F 0 "Q1" H 5650 2551 40  0000 R CNN
+F 1 "BSS138" H 5650 2850 40  0000 R CNN
+F 2 "SMD_Packages:SOT-23" H 5520 2802 29  0000 C CNN
+F 3 "" H 5650 2700 60  0000 C CNN
+	1    5650 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R12
+U 1 1 54A88C91
+P 5050 2550
+F 0 "R12" V 5130 2550 40  0000 C CNN
+F 1 "1K" V 5057 2551 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4980 2550 30  0001 C CNN
+F 3 "" H 5050 2550 30  0000 C CNN
+	1    5050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R14
+U 1 1 54A88CB6
+P 6250 2550
+F 0 "R14" V 6330 2550 40  0000 C CNN
+F 1 "1K" V 6257 2551 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 6180 2550 30  0001 C CNN
+F 3 "" H 6250 2550 30  0000 C CNN
+	1    6250 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2800 5450 2800
+Wire Wire Line
+	5850 2800 6650 2800
+Wire Wire Line
+	5600 2500 5600 2300
+Wire Wire Line
+	5600 2300 5050 2300
+$Comp
+L +3.3V #PWR044
+U 1 1 54A88E98
+P 5050 2150
+F 0 "#PWR044" H 5050 2110 30  0001 C CNN
+F 1 "+3.3V" H 5050 2260 30  0000 C CNN
+F 2 "" H 5050 2150 60  0000 C CNN
+F 3 "" H 5050 2150 60  0000 C CNN
+	1    5050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2300 5050 2150
+$Comp
+L +5V #PWR045
+U 1 1 54A88F66
+P 6250 2150
+F 0 "#PWR045" H 6250 2240 20  0001 C CNN
+F 1 "+5V" H 6250 2240 30  0000 C CNN
+F 2 "" H 6250 2150 60  0000 C CNN
+F 3 "" H 6250 2150 60  0000 C CNN
+	1    6250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2150 6250 2300
+Text GLabel 4700 2800 0    47   Input ~ 0
+SDA
+Connection ~ 5050 2800
+Text GLabel 6650 2800 2    47   Input ~ 0
+H_SDA
+Connection ~ 6250 2800
+$Comp
+L BSS138 Q2
+U 1 1 54A89312
+P 5650 3850
+F 0 "Q2" H 5650 3701 40  0000 R CNN
+F 1 "BSS138" H 5650 4000 40  0000 R CNN
+F 2 "SMD_Packages:SOT-23" H 5520 3952 29  0000 C CNN
+F 3 "" H 5650 3850 60  0000 C CNN
+	1    5650 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R13
+U 1 1 54A89318
+P 5050 3700
+F 0 "R13" V 5130 3700 40  0000 C CNN
+F 1 "1K" V 5057 3701 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4980 3700 30  0001 C CNN
+F 3 "" H 5050 3700 30  0000 C CNN
+	1    5050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R15
+U 1 1 54A8931E
+P 6250 3700
+F 0 "R15" V 6330 3700 40  0000 C CNN
+F 1 "1K" V 6257 3701 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 6180 3700 30  0001 C CNN
+F 3 "" H 6250 3700 30  0000 C CNN
+	1    6250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3950 5450 3950
+Wire Wire Line
+	5850 3950 6650 3950
+Wire Wire Line
+	5600 3650 5600 3450
+Wire Wire Line
+	5600 3450 5050 3450
+$Comp
+L +3.3V #PWR046
+U 1 1 54A89328
+P 5050 3300
+F 0 "#PWR046" H 5050 3260 30  0001 C CNN
+F 1 "+3.3V" H 5050 3410 30  0000 C CNN
+F 2 "" H 5050 3300 60  0000 C CNN
+F 3 "" H 5050 3300 60  0000 C CNN
+	1    5050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3450 5050 3300
+$Comp
+L +5V #PWR047
+U 1 1 54A8932F
+P 6250 3300
+F 0 "#PWR047" H 6250 3390 20  0001 C CNN
+F 1 "+5V" H 6250 3390 30  0000 C CNN
+F 2 "" H 6250 3300 60  0000 C CNN
+F 3 "" H 6250 3300 60  0000 C CNN
+	1    6250 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3300 6250 3450
+Text GLabel 4700 3950 0    47   Input ~ 0
+SCL
+Connection ~ 5050 3950
+Text GLabel 6650 3950 2    47   Input ~ 0
+H_SCL
+Connection ~ 6250 3950
+Text Notes 5050 4550 0    60   ~ 0
+Note:\nThis includes I2C pullups
+$EndSCHEMATC

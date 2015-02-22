@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by Cvpcb (2014-12-04 BZR 5312)-product   date = 1/18/2015 10:37:26 PM
+
+BeginCmp
+TimeStamp = /54BC8A6A;
+Reference = 22K1;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC8A0F;
+Reference = 33nF1;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC30B9;
+Reference = C1;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC30DA;
+Reference = C2;
+ValeurCmp = 1nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC7E5E;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC7E93;
+Reference = C4;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC799C;
+Reference = C5;
+ValeurCmp = 1.5pF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC79D7;
+Reference = C6;
+ValeurCmp = 1.0pF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC7341;
+Reference = L1;
+ValeurCmp = 8.2nH;
+IdModule  = SMD_Packages:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC7697;
+Reference = L2;
+ValeurCmp = 3.9nH;
+IdModule  = SMD_Packages:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC7562;
+Reference = L3;
+ValeurCmp = 2.7nH;
+IdModule  = SMD_Packages:SMD-0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC288A;
+Reference = U1;
+ValeurCmp = 8x1.27mm;
+IdModule  = footprints:8pin_x_1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC9966;
+Reference = U2;
+ValeurCmp = ceramic_resonator;
+IdModule  = footprints:ceramic_resonator_smd;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BC26CC;
+Reference = U3;
+ValeurCmp = nRF24L01+;
+IdModule  = footprints:nRF24L01+;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BCA274;
+Reference = Y1;
+ValeurCmp = antenna2SMD5;
+IdModule  = footprints:2.45Ghz_Antenna;
+EndCmp
+
+EndListe

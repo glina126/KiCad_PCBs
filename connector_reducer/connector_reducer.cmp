@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by Cvpcb (2014-12-04 BZR 5312)-product   date = 1/13/2015 2:27:21 AM
+
+BeginCmp
+TimeStamp = /54B4C6A2;
+Reference = C1;
+ValeurCmp = 6pin_1.27mm;
+IdModule  = footprints:6pin_1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54B4C741;
+Reference = P1;
+ValeurCmp = CONN_01X06;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x06;
+EndCmp
+
+EndListe
